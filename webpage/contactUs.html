@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us-Marinduque Airport</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<img src="../img/logo.png">
+		</div>
+		<div class="nav">
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="../webpage/about.html">About Us</a></li>
+				<li><a href="">Airlines & Destinations</a></li>
+				<li><a href="">Travel Resources</a></li>
+				<li><a href="../webpage/contactUs.html"class= "active">Contacts Us</a></li>
+			</ul>
+		</div>
+		<div class="banner">
+			<img src="../img/marinduque airport.png">
+		</div>
+		<div class="main"></div>
+			<div class="content">
+				<h1>Contact Us</h1>
+				<h2>Contact Form</h2>
+				<p>We are happy to get comments and questions from readers.
+				<br> <br>There are many ways to contribute to the site and the community if you’re interested in doing so: 1) Leave comments on blog posts, 2) Share YOUR photos, videos, and experiences, 3) Write a guest blog post.
+				<br> <br>Please check our FAQ page BEFORE contacting us.  Answers to the most common questions we receive can be found there.
+				<br> <br>Otherwise, feel free to send us a message using the contact form below. Please keep your messages brief and to the point. Thanks!
+				<br> <br>We look forward to hearing from you. </p>
+				
+				<form name="contactForm" action="" method="POST">
+			<table class="cForm">
+				<tr>
+					<th><label>Name:</label></th>
+					<td><input type="text" name="txtName" id="txtName" placeholder="Enter Your Full Name" required /></td>
+				</tr>
+				<tr>
+					<th><label>Email:</label></th>
+					<td><input type="email" name="txtEmail" id="txtEmail" placeholder="Enter Your Email" required /></td>
+				</tr>
+				<tr>
+					<th><label>Phone Number:</label></th>
+					<td><input type="tel" name="txtPhone" id="txtPhone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="XXX-XXX-XXXX"></td>
+				</tr>
+				<tr>
+					<th><label>Subject:</label></th>
+					<td><input type="subject" name="txtSubject" id="txtSubject" placeholder="Enter Your Subject" required /></td>
+				</tr>
+				<tr>
+					<th colspan="2"><label>How did you hear about us?:</label></th>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="radio" id="website" name="heard_about_us" value="website">
+    					<label for="website">Website</label>
+    					<input type="radio" id="referral" name="heard_about_us" value="referral">
+    					<label for="referral">Referral</label>
+    					<input type="radio" id="advertisement" name="heard_about_us" value="advertisement">
+    					<label for="advertisement">Advertisement</label>
+					</td>
+				</tr>
+				<tr>
+					<th colspan="2">
+						<label>Subscribe to our Website?:</label>
+						<input type="checkbox" id="subscribe" name="subscribe" value="yes">
+						<label>Yes, Subscribe!</label>
+					</th>
+				</tr>
+				<tr>
+					<th colspan="2"><label>Message:</label></th>
+				</tr>
+				<tr>
+					<td colspan="2" align="left">
+						<textarea id="message" name="message" cols="60" rows="10"placeholder="Write your message here..."></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td align="right"><input type="submit" name="btnSend" id="btnSend" value="SUBMIT" onclick="saveData()"></td>
+					<td align="center"><input type="reset" name="btnClear" id="btnClear" value="CLEAR"></td>
+				</tr>
+			</table>
+		</form>
+			</div>
+
+			<div class="right-side-bar">
+				<ul>
+					<li><img src="../img/Sidebars/mrq-photo006.webp"></li>				
+					<li><img src="../img/Sidebars/mrq-photo005.webp"></li>
+					<li><img src="../img/Sidebars/mrq-photo004.webp"></li>					
+					<li><img src="../img/Sidebars/mrq-photo001.webp"></li>
+					<li><img src="../img/Sidebars/mrq-photo002.webp"></li>
+				</ul>
+			</div>
+			<div class="footer">
+				<p>&copy; 2024 Marinduque Airport <br> Civil Aviation Authority of the Philippines<br> Barangay Masiga, Gasan, Marinque, Philippines</p>
+
+				<a href="https://www.facebook.com"><img src="../img/icons/facebook.png" target="_blank"></a>
+				<a href="https://www.twitter.com"><img src="../img/icons/twitter.png" target="_blank"></a>
+				<a href="https://www.youtube.com"><img src="../img/icons/youtube.png" target="_blank"></a>
+				
+			</div>
+	</div>
+</body>
+</html>
